@@ -1,2 +1,6 @@
 alias act="source bin/activate"
 
+alias runs="python manage.py runserver"
+alias makemig="python manage.py makemigrations"
+alias mig="python manage.py migrate"
+
