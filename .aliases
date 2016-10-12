@@ -4,3 +4,5 @@ alias runs="python manage.py runserver"
 alias makemig="python manage.py makemigrations"
 alias mig="python manage.py migrate"
 
+alias lshid="ls -al"
+
