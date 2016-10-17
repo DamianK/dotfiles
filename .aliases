@@ -7,3 +7,5 @@ alias mig="python manage.py migrate"
 alias lshid="ls -al"
 
 alias phpserv="php -S 127.0.0.1:8000"
+
+alias larlocal="php artisan serve"
