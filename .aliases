@@ -1,3 +1,4 @@
+alias virt=virtualenv
 alias act="source bin/activate"
 alias deact="deactivate"
 
