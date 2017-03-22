@@ -7,6 +7,10 @@ alias makemig="python manage.py makemigrations"
 alias mig="python manage.py migrate"
 alias statics="python manage.py collecstatic"
 alias dshell="python manage.py shell"
+alias dmail="python manage.py sendtestemail"
+alias smig="python manage.py showmigrations"
+alias sproj="python manage.py startproject"
+alias sapp="python manage.py startapp"
 
 alias lshid="ls -al"
 
