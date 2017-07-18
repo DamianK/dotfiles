@@ -9,7 +9,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 2) Install PIP:
 sudo easy_install pip
 
-3) Install Viertualenv:
+3) Install Virtualenv:
 sudo pip install virtualenv
 
 4) Install django on virtualenv
@@ -32,5 +32,7 @@ brew install postgresql
 ln -sfv /usr/local/opt/postgresql/*plist ~/Library/LaunchAgents 
 launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist 
 
+8) MongoDB
+brew install mongodb
 
 Lately I have not used apache or anything like that anymore, because both Django and Laravel have builtin servers for development.
