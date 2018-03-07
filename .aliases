@@ -13,7 +13,3 @@ alias sproj="python manage.py startproject"
 alias sapp="python manage.py startapp"
 
 alias lshid="ls -al"
-
-alias phpserv="php -S 127.0.0.1:8000"
-
-alias larlocal="php artisan serve"
