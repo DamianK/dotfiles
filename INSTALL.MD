@@ -22,17 +22,11 @@ git config --global user.name "Your name"
 git config --global user.email "your@email.com" 
 ssh-keygen -t rsa -C "your@email.com" 
 
-6) Mysql
-brew install mysql 
-ln -sfv /usr/local/opt/mysql/*plist ~/Library/LaunchAgents 
-launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist 
-
-7) Postgresql
+6) Postgresql
 brew install postgresql 
-ln -sfv /usr/local/opt/postgresql/*plist ~/Library/LaunchAgents 
-launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist 
+brew services start postgresql@14
 
-8) MongoDB
+7) MongoDB
 brew install mongodb
 
-Lately I have not used apache or anything like that anymore, because both Django and Laravel have builtin servers for development.
+Lately I have not used apache or anything like that anymore, thanks python :)
